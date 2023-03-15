@@ -9,7 +9,8 @@ import unittest
 import numpy as np
 
 import torch
-from pytorch3d.implicitron.dataset.blob_loader import (
+
+from pytorch3d.implicitron.dataset.utils import (
     _bbox_xywh_to_xyxy,
     _bbox_xyxy_to_xywh,
     _clamp_box_to_image_bounds_and_round,
